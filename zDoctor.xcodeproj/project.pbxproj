@@ -7,27 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820300EB1DF5494200CEC2CE /* ListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 820300EA1DF5494100CEC2CE /* ListVC.m */; };
 		824159791DE17DE400DD8037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 824159781DE17DE400DD8037 /* main.m */; };
 		8241597C1DE17DE400DD8037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8241597B1DE17DE400DD8037 /* AppDelegate.m */; };
-		8241597F1DE17DE400DD8037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8241597E1DE17DE400DD8037 /* ViewController.m */; };
 		824159821DE17DE400DD8037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824159801DE17DE400DD8037 /* Main.storyboard */; };
 		824159851DE17DE400DD8037 /* zDoctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 824159831DE17DE400DD8037 /* zDoctor.xcdatamodeld */; };
 		824159871DE17DE400DD8037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824159861DE17DE400DD8037 /* Assets.xcassets */; };
 		8241598A1DE17DE400DD8037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824159881DE17DE400DD8037 /* LaunchScreen.storyboard */; };
+		824159931DE17E5100DD8037 /* IntroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 824159921DE17E5100DD8037 /* IntroVC.m */; };
+		824159961DE1893700DD8037 /* WelcomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 824159951DE1893700DD8037 /* WelcomeCollectionViewCell.m */; };
+		8247D7921E1779A4004CAD26 /* DoctorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8247D7911E1779A4004CAD26 /* DoctorVC.m */; };
+		82E7BFA61DE1A51E003933BB /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E7BFA51DE1A51E003933BB /* SearchVC.m */; };
+		82E7BFC51DF15923003933BB /* SearchResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E7BFC41DF15923003933BB /* SearchResultVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		820300E91DF5494100CEC2CE /* ListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListVC.h; sourceTree = "<group>"; };
+		820300EA1DF5494100CEC2CE /* ListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListVC.m; sourceTree = "<group>"; };
 		824159741DE17DE400DD8037 /* zDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824159781DE17DE400DD8037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8241597A1DE17DE400DD8037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8241597B1DE17DE400DD8037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8241597D1DE17DE400DD8037 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8241597E1DE17DE400DD8037 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		824159811DE17DE400DD8037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		824159841DE17DE400DD8037 /* zDoctor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zDoctor.xcdatamodel; sourceTree = "<group>"; };
 		824159861DE17DE400DD8037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824159891DE17DE400DD8037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8241598B1DE17DE400DD8037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824159911DE17E5100DD8037 /* IntroVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroVC.h; sourceTree = "<group>"; };
+		824159921DE17E5100DD8037 /* IntroVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroVC.m; sourceTree = "<group>"; };
+		824159941DE1893700DD8037 /* WelcomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeCollectionViewCell.h; sourceTree = "<group>"; };
+		824159951DE1893700DD8037 /* WelcomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeCollectionViewCell.m; sourceTree = "<group>"; };
+		8247D7901E1779A4004CAD26 /* DoctorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoctorVC.h; path = ../DoctorVC.h; sourceTree = "<group>"; };
+		8247D7911E1779A4004CAD26 /* DoctorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoctorVC.m; path = ../DoctorVC.m; sourceTree = "<group>"; };
+		82E7BFA41DE1A51E003933BB /* SearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchVC.h; sourceTree = "<group>"; };
+		82E7BFA51DE1A51E003933BB /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
+		82E7BFC31DF15923003933BB /* SearchResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultVC.h; sourceTree = "<group>"; };
+		82E7BFC41DF15923003933BB /* SearchResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +75,19 @@
 		824159761DE17DE400DD8037 /* zDoctor */ = {
 			isa = PBXGroup;
 			children = (
-				8241597A1DE17DE400DD8037 /* AppDelegate.h */,
-				8241597B1DE17DE400DD8037 /* AppDelegate.m */,
-				8241597D1DE17DE400DD8037 /* ViewController.h */,
-				8241597E1DE17DE400DD8037 /* ViewController.m */,
 				824159801DE17DE400DD8037 /* Main.storyboard */,
-				824159861DE17DE400DD8037 /* Assets.xcassets */,
-				824159881DE17DE400DD8037 /* LaunchScreen.storyboard */,
-				8241598B1DE17DE400DD8037 /* Info.plist */,
-				824159831DE17DE400DD8037 /* zDoctor.xcdatamodeld */,
+				824159911DE17E5100DD8037 /* IntroVC.h */,
+				824159921DE17E5100DD8037 /* IntroVC.m */,
+				824159941DE1893700DD8037 /* WelcomeCollectionViewCell.h */,
+				824159951DE1893700DD8037 /* WelcomeCollectionViewCell.m */,
+				82E7BFA41DE1A51E003933BB /* SearchVC.h */,
+				82E7BFA51DE1A51E003933BB /* SearchVC.m */,
+				82E7BFC31DF15923003933BB /* SearchResultVC.h */,
+				82E7BFC41DF15923003933BB /* SearchResultVC.m */,
+				820300E91DF5494100CEC2CE /* ListVC.h */,
+				820300EA1DF5494100CEC2CE /* ListVC.m */,
+				8247D7901E1779A4004CAD26 /* DoctorVC.h */,
+				8247D7911E1779A4004CAD26 /* DoctorVC.m */,
 				824159771DE17DE400DD8037 /* Supporting Files */,
 			);
 			path = zDoctor;
@@ -77,7 +96,13 @@
 		824159771DE17DE400DD8037 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8241597A1DE17DE400DD8037 /* AppDelegate.h */,
+				8241597B1DE17DE400DD8037 /* AppDelegate.m */,
+				824159861DE17DE400DD8037 /* Assets.xcassets */,
+				8241598B1DE17DE400DD8037 /* Info.plist */,
+				824159831DE17DE400DD8037 /* zDoctor.xcdatamodeld */,
 				824159781DE17DE400DD8037 /* main.m */,
+				824159881DE17DE400DD8037 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,7 +138,7 @@
 				TargetAttributes = {
 					824159731DE17DE400DD8037 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = PN5D3T49DB;
+						DevelopmentTeam = FA6Q7EXUXC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -154,10 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8241597F1DE17DE400DD8037 /* ViewController.m in Sources */,
+				820300EB1DF5494200CEC2CE /* ListVC.m in Sources */,
 				824159851DE17DE400DD8037 /* zDoctor.xcdatamodeld in Sources */,
+				8247D7921E1779A4004CAD26 /* DoctorVC.m in Sources */,
+				824159931DE17E5100DD8037 /* IntroVC.m in Sources */,
 				8241597C1DE17DE400DD8037 /* AppDelegate.m in Sources */,
 				824159791DE17DE400DD8037 /* main.m in Sources */,
+				82E7BFA61DE1A51E003933BB /* SearchVC.m in Sources */,
+				82E7BFC51DF15923003933BB /* SearchResultVC.m in Sources */,
+				824159961DE1893700DD8037 /* WelcomeCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +305,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PN5D3T49DB;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FA6Q7EXUXC;
 				INFOPLIST_FILE = zDoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = diskander.zDoctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,8 +319,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PN5D3T49DB;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FA6Q7EXUXC;
 				INFOPLIST_FILE = zDoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = diskander.zDoctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +348,7 @@
 				824159901DE17DE400DD8037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
