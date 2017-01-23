@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ACDC76469CF66D6F77E403F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08553CA4A67A12BD683081C5 /* CoreMedia.framework */; };
+		1B4DDD1EDA1A07818ECED406 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D8457C0ADB528BB600ABAA /* QuartzCore.framework */; };
+		302FBCBEEC2CF4A853713FBE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D836A6C37A59283C07FB8BB /* AssetsLibrary.framework */; };
+		38335868B3049B04A7147620 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3E2CE9816DC04A707785C6 /* AVFoundation.framework */; };
+		3987A0423AD24BF6CCD347A9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605D07777931A13E82BD4610 /* CoreText.framework */; };
 		820300EB1DF5494200CEC2CE /* ListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 820300EA1DF5494100CEC2CE /* ListVC.m */; };
 		824159791DE17DE400DD8037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 824159781DE17DE400DD8037 /* main.m */; };
 		8241597C1DE17DE400DD8037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8241597B1DE17DE400DD8037 /* AppDelegate.m */; };
@@ -19,9 +24,16 @@
 		8247D7921E1779A4004CAD26 /* DoctorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8247D7911E1779A4004CAD26 /* DoctorVC.m */; };
 		82E7BFA61DE1A51E003933BB /* SearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E7BFA51DE1A51E003933BB /* SearchVC.m */; };
 		82E7BFC51DF15923003933BB /* SearchResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E7BFC41DF15923003933BB /* SearchResultVC.m */; };
+		8E683DB0A21F626D631E7B52 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD5FAC21D8B65833E1665C1 /* BuddyBuildSDK.framework */; };
+		DC5B011DDCD17B47F68A79BB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249798FC4FD59C6FE94D8C47 /* CoreVideo.framework */; };
+		F71D62A384158C3F233CBA5A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25B3F36F831385BAF2D7CB3 /* CoreTelephony.framework */; };
+		F9437590990CD1A8E8AEDB4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245D9CE1194ECE665034CB1 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08553CA4A67A12BD683081C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		249798FC4FD59C6FE94D8C47 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		605D07777931A13E82BD4610 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		820300E91DF5494100CEC2CE /* ListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListVC.h; sourceTree = "<group>"; };
 		820300EA1DF5494100CEC2CE /* ListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListVC.m; sourceTree = "<group>"; };
 		824159741DE17DE400DD8037 /* zDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +55,12 @@
 		82E7BFA51DE1A51E003933BB /* SearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchVC.m; sourceTree = "<group>"; };
 		82E7BFC31DF15923003933BB /* SearchResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultVC.h; sourceTree = "<group>"; };
 		82E7BFC41DF15923003933BB /* SearchResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultVC.m; sourceTree = "<group>"; };
+		8D836A6C37A59283C07FB8BB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9AD5FAC21D8B65833E1665C1 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		AA3E2CE9816DC04A707785C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B25B3F36F831385BAF2D7CB3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D245D9CE1194ECE665034CB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E2D8457C0ADB528BB600ABAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,17 +68,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E683DB0A21F626D631E7B52 /* BuddyBuildSDK.framework in Frameworks */,
+				302FBCBEEC2CF4A853713FBE /* AssetsLibrary.framework in Frameworks */,
+				3987A0423AD24BF6CCD347A9 /* CoreText.framework in Frameworks */,
+				F71D62A384158C3F233CBA5A /* CoreTelephony.framework in Frameworks */,
+				F9437590990CD1A8E8AEDB4C /* SystemConfiguration.framework in Frameworks */,
+				1B4DDD1EDA1A07818ECED406 /* QuartzCore.framework in Frameworks */,
+				38335868B3049B04A7147620 /* AVFoundation.framework in Frameworks */,
+				1ACDC76469CF66D6F77E403F /* CoreMedia.framework in Frameworks */,
+				DC5B011DDCD17B47F68A79BB /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F447CB16849E484B46B1CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AD5FAC21D8B65833E1665C1 /* BuddyBuildSDK.framework */,
+				8D836A6C37A59283C07FB8BB /* AssetsLibrary.framework */,
+				605D07777931A13E82BD4610 /* CoreText.framework */,
+				B25B3F36F831385BAF2D7CB3 /* CoreTelephony.framework */,
+				D245D9CE1194ECE665034CB1 /* SystemConfiguration.framework */,
+				E2D8457C0ADB528BB600ABAA /* QuartzCore.framework */,
+				AA3E2CE9816DC04A707785C6 /* AVFoundation.framework */,
+				08553CA4A67A12BD683081C5 /* CoreMedia.framework */,
+				249798FC4FD59C6FE94D8C47 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8241596B1DE17DE400DD8037 = {
 			isa = PBXGroup;
 			children = (
 				824159761DE17DE400DD8037 /* zDoctor */,
 				824159751DE17DE400DD8037 /* Products */,
+				2F447CB16849E484B46B1CF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -311,6 +355,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FA6Q7EXUXC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = zDoctor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -327,6 +375,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FA6Q7EXUXC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = zDoctor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
